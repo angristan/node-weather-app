@@ -22,7 +22,7 @@ axios.get(geocodeUrl).then((response) => {
   if (response.data.status === 'ZERO_RESULTS') {
     throw new Error('Unable to find that address.');
   }
-  const forecastApiKey = 'e61528374be313bc29ede46a99076201';
+  const forecastApiKey = ''; // Use your API Key
   const lat = response.data.results[0].geometry.location.lat;
   const lng = response.data.results[0].geometry.location.lng;
   const weatherUrl = `https://api.darksky.net/forecast/${forecastApiKey}/${lat},${lng}`;

@@ -2,9 +2,11 @@
 
 A basic wather app in node to train with async, callbacks and promises.
 
+Made thanks to this [Udemy course](https://www.udemy.com/the-complete-nodejs-developer-course-2/).
+
 ## Installation
 
-```
+```sh
 npm install
 ```
 
